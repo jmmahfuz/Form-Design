@@ -16,6 +16,7 @@
     justify-content: center;
     align-items: center;
     padding: 10px;
+    background-color: #f5eeee;
 }
 
 .star {
@@ -25,6 +26,8 @@
 .input-field {
     width: 400px;
     padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
 }
 
 .details {
@@ -45,16 +48,22 @@
 
 .date-info {
     padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
 }
 
 .input-age {
     width: 60px;
     padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
 }
 
 .gender-option {
     width: 180px;
     padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
 }
 
 .parents-details {
@@ -65,6 +74,8 @@
 .parents-input-field {
     width: 195px;
     padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
 }
 
 .btn {
