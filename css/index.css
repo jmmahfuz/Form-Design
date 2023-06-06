@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1320px;
+}
+
+/* common css end */
+
+/* Form part start */
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.star {
+    color: red;
+}
+
+.input-field {
+    width: 400px;
+    padding: 5px 10px;
+}
+
+.details {
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.input-box {
+    padding-bottom: 10px;
+}
+
+.user-info {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+}
+
+.date-info {
+    padding: 5px 10px;
+}
+
+.input-age {
+    width: 60px;
+    padding: 5px 10px;
+}
+
+.gender-option {
+    width: 180px;
+    padding: 5px 10px;
+}
+
+.parents-details {
+    display: flex;
+    gap: 10px;
+}
+
+.parents-input-field {
+    width: 195px;
+    padding: 5px 10px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    background-color: #0E4178;
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* Form part end */

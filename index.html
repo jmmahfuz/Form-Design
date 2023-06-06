@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Design</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Form part start -->
+        <form class="form">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Name(English) <span class="star">*</span></span> <br>
+                    <input class="input-field" type="text" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Name(Bengali) <span class="star">*</span></span> <br>
+                    <input class="input-field" type="text" required>
+                </div>
+
+                <div class="user-info">
+                    <div class="input-box">
+                        <span class="details">DOB <span class="star">*</span></span> <br>
+                        <input class="date-info" type="date" required>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="details">Age <span class="star">*</span></span> <br>
+                        <input class="input-age" type="number" required>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="details">Gender <span class="star">*</span></span> <br>
+                        <select class="gender-option" name="gender" id="gender">
+                            <option value="select">Select</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="custom">Custom</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="input-box">
+                    <span class="details">Marital Status <span class="star">*</span></span> <br>
+                    <select class="input-field" name="marital-status" id="marital-status">
+                        <option value="marital-status">--Marital Status--</option>
+                        <option value="married">Married</option>
+                        <option value="unmarried">Unmarried</option>
+                    </select>
+                </div>
+
+                <div class="input-box">
+                    <span class="details">Relation With HOF <span class="star">*</span></span> <br>
+                    <select class="input-field" name="relation-with-family" id="relation-with-family">
+                        <option value="marital-status">---Select---</option>
+                        <option value="father">Father</option>
+                        <option value="mother">Mother</option>
+                        <option value="brother">Brother</option>
+                        <option value="sister">Sister</option>
+                        <option value="uncle">Uncle</option>
+                        <option value="aunty">Aunty</option>
+                        <option value="grand-father">Grand Father</option>
+                        <option value="grand-mother">Grand Mother</option>
+                    </select>
+                </div>
+
+                <div class="parents-details">
+                    <div class="input-box">
+                        <span class="details">Father's Name(English) <span class="star">*</span></span> <br>
+                        <input class="parents-input-field" type="text" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Father's Name(Bengali) <span class="star">*</span></span> <br>
+                        <input class="parents-input-field" type="text" required>
+                    </div>
+                </div>
+
+                <div class="parents-details">
+                    <div class="input-box">
+                        <span class="details">Mother's Name(English) <span class="star">*</span></span> <br>
+                        <input class="parents-input-field" type="text" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Mother's Name(Bengali) <span class="star">*</span></span> <br>
+                        <input class="parents-input-field" type="text" required>
+                    </div>
+                </div>
+
+                <div class="parents-details">
+                    <div class="input-box">
+                        <span class="details">Spouse Name(English) <span class="star">*</span></span> <br>
+                        <input class="parents-input-field" type="text" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Spouse Name(Bengali) <span class="star">*</span></span> <br>
+                        <input class="parents-input-field" type="text" required>
+                    </div>
+                </div>
+
+                <div class="input-box">
+                    <span class="details">Religion <span class="star">*</span></span> <br>
+                    <select class="input-field" name="religion" id="religion">
+                        <option value="religion">---Select---</option>
+                        <option value="islam">Islam</option>
+                        <option value="hindu">Hindu</option>
+                        <option value="christian">Christian</option>
+                    </select>
+                </div>
+
+                <div class="input-box">
+                    <span class="details">Occupation <span class="star">*</span></span> <br>
+                    <select class="input-field" name="occupation" id="occupation">
+                        <option value="select">---Select---</option>
+                        <option value="software-developer">Software Developer</option>
+                        <option value="engineer">Engineer</option>
+                        <option value="physiotherapist">Physiotherapist</option>
+                        <option value="scientist">Scientist</option>
+                        <option value="social-worker">Social Worker</option>
+                        <option value="nurse">Nurse</option>
+                        <option value="film-producer">Film producer</option>
+                    </select>
+                </div>
+
+                <div class="input-box">
+                    <span class="details">ID Type <span class="star">*</span></span> <br>
+                    <select class="input-field" name="religion" id="religion">
+                        <option value="nation-id">National ID</option>
+                        <option value="birth-certificate">Birth Certificate</option>
+                    </select>
+                </div>
+
+                <div class="input-box">
+                    <span class="details">ID Number <span class="star">*</span></span> <br>
+                    <input class="input-field" type="number" required>
+                </div>
+
+                <div class="btn">
+                    <button class="button">save</button>
+                </div>
+            </div>
+        </form>
+        <!-- Form part end -->
+    </div>
+</body>
+
+</html>
